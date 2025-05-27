@@ -10,12 +10,13 @@ programa
 
 	funcao ola_mundo(cadeia idioma)
 	{
+		limpa()
 		se (idioma == "Português")
-			escreva("Olá Mundo!!!")
+			escreva("Olá, Mundo!!!")
 		senao se (idioma == "English")
-			escreva("Hello World!!!")
+			escreva("Hello, World!!!")
 		senao
-			escreva("Olá Mundo!!!")
+			escreva("Olá, Mundo!!!")
 	}
 	funcao cadeia choose()
 	{
@@ -48,8 +49,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 145; 
- * @DOBRAMENTO-CODIGO = [10, 19];
+ * @POSICAO-CURSOR = 148; 
+ * @DOBRAMENTO-CODIGO = [20];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
