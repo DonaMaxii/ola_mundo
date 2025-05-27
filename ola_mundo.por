@@ -3,12 +3,17 @@ programa
 	
 	funcao inicio()
 	{
-		ola_mundo()
+		ola_mundo("en")
 	}
 
-	funcao ola_mundo()
+	funcao ola_mundo(cadeia idioma)
 	{
-		escreva("Olá Mundo!!!")
+		se (idioma == "pt")
+			escreva("Olá Mundo!!!")
+		senao se (idioma == "en")
+			escreva("Hello World!!!")
+		senao
+			escreva("Olá Mundo!!!")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -16,8 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 76; 
- * @DOBRAMENTO-CODIGO = [8];
+ * @POSICAO-CURSOR = 53; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
