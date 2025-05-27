@@ -1,14 +1,17 @@
 programa
 {
+	//Variáveis globais para os idiomas
 	cadeia en = "English"
 	cadeia pt = "Português"
-	
+
+	//Função principal
 	funcao inicio()
 	{
 		ola_mundo(choose())
 	}
 
 	funcao ola_mundo(cadeia idioma)
+	//Função voltada para exibir a mensagem na tela
 	{
 		limpa()
 		se (idioma == "Português")
@@ -19,6 +22,7 @@ programa
 			escreva("Olá, Mundo!!!")
 	}
 	funcao cadeia choose()
+	//Função voltada para escolha do idioma pelo usuário
 	{
 		escreva("Informe o seu idioma / Choose your language: ")
 		escreva("\n1 - PT/BR")
@@ -49,8 +53,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 148; 
- * @DOBRAMENTO-CODIGO = [20];
+ * @POSICAO-CURSOR = 500; 
+ * @DOBRAMENTO-CODIGO = [7, 13, 24];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
